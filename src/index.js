@@ -328,45 +328,6 @@ global.fullScreen = fullScreenRenderWindow_2;
 global.actor = actor_2;
 global.mapper = mapper_2;
 global.marchingCube = marchingCube;
-
-// **********************************************************************
-// **********************************************************************
-// **********************************************************************
-// **********************************************************************
-// **********************************************************************
-// **********************************************************************
-// **********************************************************************
-// **********************************************************************
-// **********************************************************************
-// **********************************************************************
-// **********************************************************************
-// **********************************************************************
-// **********************************************************************
-
-
-// import '@kitware/vtk.js/favicon';
-
-// // Load the rendering pieces we want to use (for both WebGL and WebGPU)
-// import '@kitware/vtk.js/Rendering/Profiles/Volume';
-
-// import vtkColorTransferFunction from '@kitware/vtk.js/Rendering/Core/ColorTransferFunction';
-// import vtkFullScreenRenderWindow from '@kitware/vtk.js/Rendering/Misc/FullScreenRenderWindow';
-// import vtkHttpDataSetReader from '@kitware/vtk.js/IO/Core/HttpDataSetReader';
-// import vtkPiecewiseFunction from '@kitware/vtk.js/Common/DataModel/PiecewiseFunction';
-// import vtkVolume from '@kitware/vtk.js/Rendering/Core/Volume';
-// import vtkVolumeMapper from '@kitware/vtk.js/Rendering/Core/VolumeMapper';
-
-// Force the loading of HttpDataAccessHelper to support gzip decompression
-// import '@kitware/vtk.js/IO/Core/DataAccessHelper/HttpDataAccessHelper';
-
-
-
-// ----------------------------------------------------------------------------
-// Standard rendering code setup
-// ----------------------------------------------------------------------------
-// const controlPanel3 = `
-
-// `;
 const rootContainer_3 = document.createElement('div');
 document.body.appendChild(rootContainer_3);
 
@@ -577,4 +538,10 @@ document.getElementById("clickMeRayCasting").addEventListener("click", function(
     rootContainer_2.style.display = "none";
     rootContainer_1.style.display = "none";
     widgetContainer.style.display = "block";
+});
+document.getElementById("Back_button").addEventListener("click", function() {
+    rootContainer_3.style.display = "none";
+    rootContainer_2.style.display = "none";
+    rootContainer_1.style.display = "none";
+    widgetContainer.style.display = "none";
 });
