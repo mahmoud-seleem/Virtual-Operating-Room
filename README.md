@@ -45,6 +45,7 @@ Name-Section-BN
 ![](https://github.com/sbme-tutorials/final-project-m-3-n/blob/main/code_snippets/some%20divs.jpeg)
 
 - widget registeration fuction
+- 
 ![](https://github.com/sbme-tutorials/final-project-m-3-n/blob/main/code_snippets/widget.jpeg)
 
 ### Issues:
