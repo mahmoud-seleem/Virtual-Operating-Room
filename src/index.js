@@ -75,59 +75,6 @@ const controlPanel = `
 </tr>
     </table>
 `;
-const controlPanel_100 = `
-<div style = "
-width = 100px;
-position:fixed;
-right: 300px;
-margin-left:100px;
-">
-<table style="color:black">
-        <tr>
-            <td>pickable</td>
-            <td>
-                <input class='flag' data-name="pickable" type="checkbox" checked />
-            </td>
-        </tr>
-        <tr>
-            <td>visibility</td>
-            <td>
-                <input class='flag' data-name="visibility" type="checkbox" checked />
-            </td>
-        </tr>
-        <tr>
-            <td>contextVisibility</td>
-            <td>
-                <input class='flag' data-name="contextVisibility" type="checkbox" checked />
-            </td>
-        </tr>
-        <tr>
-            <td>handleVisibility</td>
-            <td>
-                <input class='flag' data-name="handleVisibility" type="checkbox" checked />
-            </td>
-        </tr>
-        <tr>
-        <td>faceHandlesEnabled</td>
-        <td>
-            <input class='flag' data-name="faceHandlesEnabled" type="checkbox" checked />
-        </td>
-    </tr>
-    </table>
-    </div>
-`;
-
-
-// const rootContainer_0 = document.createElement('div');
-// document.body.appendChild(rootContainer_0);
-// // rootContainer_0.innerHTML = "<p>sldkfjlsdkfjasdf</p>"
-// const fullScreenRenderer_0 = vtkFullScreenRenderWindow.newInstance({
-//     background: [0, 0, 0],
-//     rootContainer: rootContainer_0
-// });
-
-// fullScreenRenderer_0.addController(controlPanel)
-// fullScreenRenderer_0.addController(controlPanel_100)
 const rootContainer_1 = document.createElement('div');
 document.body.appendChild(rootContainer_1);
 const fullScreenRenderer = vtkFullScreenRenderWindow.newInstance({
@@ -327,16 +274,7 @@ const controlPanel2 = `
   </tr>
 </table>
 `;
-// let contr = `
-// <button type="button" style="  position: fixed;
-//   bottom: 0;
-//   right: 0;
-//   width: 300px;">Click Me!</button>
-// `;
-// let botton_div = document.createElement('div');
-
 const rootContainer_2 = document.createElement('div');
-// rootContainer_2.style.width = "50%"
 document.body.appendChild(rootContainer_2);
 const fullScreenRenderWindow_2 = vtkFullScreenRenderWindow.newInstance({
     background: [0, 0, 0],
@@ -612,63 +550,29 @@ widget.onOpacityChange(() => {
         renderWindow_3.render();
     }
 });
-// const canvas = document.querySelector("canvas")
-// canvas.style.width = "300px"
-// rootContainer_0.style.maxHeight = "100px"
-
-// document.body.appendChild(bacKButtonDiv);
-// let bacKButtonDiv = document.createElement("div");
-// let backButton = document.createElement("button");
-// backButton.innerHTML = "submit"
-// backButton.type = "submit"
-// backButton.name = "back"
-// bacKButtonDiv.append(backButton);
-// let b = document.querySelector("body");
-// bacKButtonDiv.style.backgroundColor = "black"
-// backButton.style.width = "60%"
-// bacKButtonDiv.style.height = "20%"
-// backButton.style.height = "20%"
-// b.appendChild(bacKButtonDiv);
-
-// fullScreenRenderWindow_2.getContainer().style.width = "50%"
-// fullScreenRenderWindow_2.getContainer().style.top = "20%"
-
-
-
-//fullScreenRenderWindow_2.resize()
 rootContainer_1.style.display = "none"
 rootContainer_3.style.display = "none"
 widgetContainer.style.display = "none"
-
 rootContainer_2.style.display = "none"
-// ----------------------------------------------------------------------------
-// Expose variable to global namespace
-// ----------------------------------------------------------------------------
+    // ----------------------------------------------------------------------------
+    // Expose variable to global namespace
+    // ----------------------------------------------------------------------------
 global.widget = widget;
-
-// document.getElementById("clickMeIso").onclick = IsoFunction();
-// document.getElementById("clickMeIso").onclick = function () {
-//     rootContainer_2.style.display = "block";
-//     rootContainer_1.style.display = "none";
-//     rootContainer_3.style.display = "none";
-//     widgetContainer.style.display = "none";
-
-// }
-document.getElementById("clickMeIso").addEventListener("click", function () {
-    rootContainer_2.style.display = "block";
+document.getElementById("clickMeIso").addEventListener("click", function() {
+    rootContainer_2.style.display = "inline-table";
     rootContainer_1.style.display = "none";
     rootContainer_3.style.display = "none";
     widgetContainer.style.display = "none";
 });
 
-document.getElementById("clickMeClip").addEventListener("click", function () {
+document.getElementById("clickMeClip").addEventListener("click", function() {
     rootContainer_1.style.display = "inline-table";
     rootContainer_2.style.display = "none";
     rootContainer_3.style.display = "none";
     widgetContainer.style.display = "none";
 });
 
-document.getElementById("clickMeRayCasting").addEventListener("click", function () {
+document.getElementById("clickMeRayCasting").addEventListener("click", function() {
     rootContainer_3.style.display = "flex";
     rootContainer_2.style.display = "none";
     rootContainer_1.style.display = "none";
