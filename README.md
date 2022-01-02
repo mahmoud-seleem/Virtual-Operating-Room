@@ -6,3 +6,15 @@ team members:
 ## Mariam Ashraf Fathi
 ## Merna Hossam Mohamed
 ## Nada Mamdouh Mohamed
+
+### Details of implementaion:
+- in this task we have used the VC model to achieve the goals of the task.
+- we have used the html files to make the User Interface with the help of the CSS.
+- then used the controller file as the JavaScript file to controll our view.
+- in the controller we have 3 major scenes to show.
+- one for the clipping and cropping in a chest volume model. 
+- another one is for emphasizing the iso rendering operation.
+- the third one is to demonstrate the concept of the ray casting.
+- we have used the VTK library embeded in our javaScript code.
+- the VTK APIs have helped us in visualizing these concepts with the help of javascript code blocks and functions.
+- the controlling of swaping between the scenes is done by controlling the display modo of each part of the HTML elements.
