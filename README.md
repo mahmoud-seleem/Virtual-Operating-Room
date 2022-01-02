@@ -18,3 +18,12 @@ team members:
 - we have used the VTK library embeded in our javaScript code.
 - the VTK APIs have helped us in visualizing these concepts with the help of javascript code blocks and functions.
 - the controlling of swaping between the scenes is done by controlling the display modo of each part of the HTML elements.
+
+### code snippets
+![](/images/full_body_movement.jpeg)
+### Issues:
+1.The scenes were displayed as layers over each other, so at the first we weren't able to toggle between the scenes.
+2.The example at vtk library used an HTML file for the controlPanel but it wasn't included in the the library repo.
+### How we resolved it:
+1.We put each scene render window in a container and toggled the visiblity of the container.
+2.We constructed the controlPanel by ourselves in the index.js file.
