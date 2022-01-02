@@ -25,27 +25,26 @@ Name-Section-BN
 
 ### code snippets:
 - our main GUI
-- 
+
 ![](https://github.com/sbme-tutorials/final-project-m-3-n/blob/main/code_snippets/GUI.jpeg)
 
 - fullscreen controller 
-- 
+
 ![](https://github.com/sbme-tutorials/final-project-m-3-n/blob/main/code_snippets/controlPanal.jpeg)
 
 - reading data with http reader 
-- 
+
 ![](https://github.com/sbme-tutorials/final-project-m-3-n/blob/main/code_snippets/Reading%20data.jpeg)
 
 - fullscreen renderer object creation
-- 
+
 ![](https://github.com/sbme-tutorials/final-project-m-3-n/blob/main/code_snippets/fullscreen.jpeg)
 
 - part of the GUI 
-- 
+
 ![](https://github.com/sbme-tutorials/final-project-m-3-n/blob/main/code_snippets/some%20divs.jpeg)
 
 - widget registeration fuction
-- 
 ![](https://github.com/sbme-tutorials/final-project-m-3-n/blob/main/code_snippets/widget.jpeg)
 
 ### Issues:
