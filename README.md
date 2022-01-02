@@ -20,7 +20,7 @@ team members:
 - the controlling of swaping between the scenes is done by controlling the display modo of each part of the HTML elements.
 
 ### code snippets
-![](/images/full_body_movement.jpeg)
+![](https://github.com/sbme-tutorials/final-project-m-3-n/blob/main/code_snippets/GUI.jpeg)
 ### Issues:
 1.The scenes were displayed as layers over each other, so at the first we weren't able to toggle between the scenes.
 2.The example at vtk library used an HTML file for the controlPanel but it wasn't included in the the library repo.
