@@ -1,11 +1,11 @@
 [![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-f059dc9a6f8d3a56e377f745f24479a46679e63a5d9fe6f495e02850cd0d8118.svg)](https://classroom.github.com/online_ide?assignment_repo_id=6634618&assignment_repo_type=AssignmentRepo)
 
 # Team M-3-N
-team members:
-## Mahmoud Mohamed Seleem
-## Mariam Ashraf Fathi
-## Merna Hossam Mohamed
-## Nada Mamdouh Mohamed
+team members:                 section      BN
+## Mahmoud Mohamed Seleem        2         22
+## Mariam Ashraf Fathi           2         26
+## Merna Hossam Mohamed          2         35
+## Nada Mamdouh Mohamed          2         39
 
 ### Details of implementaion:
 - in this task we have used the VC model to achieve the goals of the task.
@@ -20,9 +20,7 @@ team members:
 - the controlling of swaping between the scenes is done by controlling the display modo of each part of the HTML elements.
 ### Results:
 - Now we can cut the volume of the chest using an interactive widget in the three perpendicular planes where this interactive widget gives the user the ability to control which action he wants to perform via checkbox, the user can check if he wants to make the points on the plane to be pickable or not and control all the visibility options.
-
 - We used surface rendering on the skull with an adjustable iso value in a control panel.
-
 - Also there is a second example for the chest where we performed ray casting rendering with a transfer function in a widget, and there are multiple interactions in this widget where if the user double clicked, he will create a gaussian at that given position and can delete it with right click, and with dragging the user can change the width and the position of the gaussian.
 
 ### code snippets:
