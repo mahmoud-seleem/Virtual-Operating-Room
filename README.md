@@ -34,9 +34,8 @@ team members:
 ![](https://github.com/sbme-tutorials/final-project-m-3-n/blob/main/code_snippets/fullscreen.jpeg)
 - part of the GUI 
 ![](https://github.com/sbme-tutorials/final-project-m-3-n/blob/main/code_snippets/some%20divs.jpeg)
-- widget registeration fuction.
+- widget registeration fuction
 ![](https://github.com/sbme-tutorials/final-project-m-3-n/blob/main/code_snippets/widget.jpeg)
-
 ### Issues:
 1.The scenes were displayed as layers over each other, so at the first we weren't able to toggle between the scenes.
 2.The example at vtk library used an HTML file for the controlPanel but it wasn't included in the the library repo.
