@@ -19,9 +19,11 @@ team members:
 - the VTK APIs have helped us in visualizing these concepts with the help of javascript code blocks and functions.
 - the controlling of swaping between the scenes is done by controlling the display modo of each part of the HTML elements.
 ### Results:
--1.Now we can cut the volume of the chest using an interactive widget in the three perpendicular planes where this interactive widget gives the user the ability to control which action he wants to perform via checkbox, the user can check if he wants to make the points on the plane to be pickable or not and control all the visibility options.
--2.We used surface rendering on the skull with an adjustable iso value in a control panel.
--3.Also there is a second example for the chest where we performed ray casting rendering with a transfer function in a widget, and there are multiple interactions in this widget where if the user double clicked, he will create a gaussian at that given position and can delete it with right click, and with dragging the user can change the width and the position of the gaussian.
+- 1.Now we can cut the volume of the chest using an interactive widget in the three perpendicular planes where this interactive widget gives the user the ability to control which action he wants to perform via checkbox, the user can check if he wants to make the points on the plane to be pickable or not and control all the visibility options.
+
+- 2.We used surface rendering on the skull with an adjustable iso value in a control panel.
+
+- 3.Also there is a second example for the chest where we performed ray casting rendering with a transfer function in a widget, and there are multiple interactions in this widget where if the user double clicked, he will create a gaussian at that given position and can delete it with right click, and with dragging the user can change the width and the position of the gaussian.
 
 ### code snippets:
 - our main GUI
