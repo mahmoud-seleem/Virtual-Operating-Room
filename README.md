@@ -21,6 +21,12 @@ Name-Section-BN
 - We used surface rendering on the skull with an adjustable iso value in a control panel.
 - Also there is a second example for the chest where we performed ray casting rendering with a transfer function in a widget, and there are multiple interactions in this widget where if the user double clicked, he will create a gaussian at that given position and can delete it with right click, and with dragging the user can change the width and the position of the gaussian.
 
+
+### code snippets:
+- our main GUI
+
+![](https://github.com/sbme-tutorials/final-project-m-3-n/blob/main/code_snippets/GUI.jpeg)
+
 ### some basic iso rendering 
 https://github.com/sbme-tutorials/sbe306-assignment4-m3n/blob/master/Iso_head.mp4 
 ### basic chest tansfer function slider
@@ -34,11 +40,6 @@ https://github.com/sbme-tutorials/sbe306-assignment4-m3n/blob/master/chest_video
  ![Alt Text](https://github.com/sbme-tutorials/sbe306-assignment4-m3n/blob/master/chest_img3.jpeg)
  ![](/images/.jpeg)
  ![Alt Text](https://github.com/sbme-tutorials/sbe306-assignment4-m3n/blob/master/chest_img4.jpeg)
-### code snippets:
-- our main GUI
-
-![](https://github.com/sbme-tutorials/final-project-m-3-n/blob/main/code_snippets/GUI.jpeg)
-
 - fullscreen controller 
 
 ![](https://github.com/sbme-tutorials/final-project-m-3-n/blob/main/code_snippets/controlPanal.jpeg)
